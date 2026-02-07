@@ -33,7 +33,7 @@ cd team-workspace
 cd study-tracker
 ```
 ```
-make up
+docker compose up --build -d
 ```
 
 ※windowsの方は、ディレクトリの移動コマンドは異なります。
