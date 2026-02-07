@@ -1,4 +1,4 @@
-.PHONY: up down build logs test-records test-goals test-backend test-frontend test restart generate-spec
+.PHONY: up down build logs test-records test-goals test-backend test-frontend test restart generate-spec pre-commit-install pre-commit-run pre-commit-update
 
 up:
 	docker compose up --build -d
@@ -49,3 +49,14 @@ restart-frontend:
 generate-spec:
 	cd backend/apis/records && poetry run python generate_specification.py > openapi.json
 	cd backend/apis/goals && poetry run python generate_specification.py > openapi.json
+
+# pre-commit
+pre-commit-install:
+	pip install pre-commit
+	pre-commit install
+
+pre-commit-run:
+	pre-commit run --all-files
+
+pre-commit-update:
+	pre-commit autoupdate
