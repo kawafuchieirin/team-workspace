@@ -31,8 +31,13 @@ team-workspace/
 
 #### クイックスタート
 
+```
+git clone リポジトリURL
+```
 ```bash
 cd study-tracker
+```
+```
 make up
 ```
 
