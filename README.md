@@ -34,12 +34,17 @@ team-workspace/
 ```
 git clone リポジトリURL
 ```
+```
+cd team-workspace
+```
 ```bash
 cd study-tracker
 ```
 ```
 make up
 ```
+
+※windowsの方は、ディレクトリの移動コマンドは異なります。
 
 | サービス | URL | 説明 |
 |---------|-----|------|
