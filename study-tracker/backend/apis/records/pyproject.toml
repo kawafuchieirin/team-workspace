@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "records-api"
+version = "1.0.0"
+description = "学習記録 API"
+authors = []
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.14"
+fastapi = ">=0.115"
+uvicorn = { version = ">=0.34", extras = ["standard"] }
+pydantic = ">=2.10"
+pydantic-settings = ">=2.7"
+boto3 = ">=1.36"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.3"
+httpx = ">=0.28"
+moto = { version = ">=5.0", extras = ["dynamodb"] }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
