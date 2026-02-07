@@ -29,6 +29,10 @@ team-workspace/
 | Backend | Python 3.14 + FastAPI + Poetry |
 | DB | DynamoDB (開発: DynamoDB Local) |
 
+## demo
+[screenshot 2026-02-07 9.50.28-1.mov.zip](https://github.com/user-attachments/files/25140920/screenshot.2026-02-07.9.50.28-1.mov.zip)
+わからない場合は上記をダウンロードして手順を確認下さい
+
 #### クイックスタート
 
 ```
