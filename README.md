@@ -32,7 +32,7 @@ team-workspace/
 #### クイックスタート
 
 ```
-git clone リポジトリURL
+git clone https://github.com/kawafuchieirin/team-workspace.git
 ```
 ```
 cd team-workspace
